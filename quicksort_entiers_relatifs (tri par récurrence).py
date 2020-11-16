@@ -15,11 +15,5 @@ lst = [1, -7, 2, 4, 10, 3, -5, 9, 6, 8, 6, 0]
 print (“Liste d’entiers relatifs avant le tri :”, lst)
 print (“Liste d’entiers relatifs après le tri :”, quicksort(lst))
 
-
----------------------------------------------------------------------------------- Résultat ------------------------------------------------------------------------------------
-  
---
-
-
 ------------------------------------------------------------------- Analyse de la condition de récurrence -----------------------------------------------------------
 L’élément, objet de la récurrence,  doit évoluer grâce aux traitements vers la condition qui permet de quitter la fonction récursive.
