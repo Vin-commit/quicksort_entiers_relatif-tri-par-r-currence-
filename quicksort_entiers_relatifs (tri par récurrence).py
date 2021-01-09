@@ -5,6 +5,7 @@ def quicksort(lst):
   if len(lst) == 0:
     return lst
   pivot = lst[len(lst) // 2]
+  # renvoie 3 listes composées des elts triés par rapport à l’elt pivot.
   left = [x for x in lst if x < pivot]
   middle = [x for x in lst if x == pivot]
   right = [x for x in lst if x > pivot]
